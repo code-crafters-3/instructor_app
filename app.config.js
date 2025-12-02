@@ -76,8 +76,9 @@ module.exports = () => {
       orientation: 'portrait',
       userInterfaceStyle: 'light',
       newArchEnabled: true,
+      plugins: ['expo-router', 'expo-font'],
       updates: {
-        fallbackToCacheTimeout: 0,
+      fallbackToCacheTimeout: 0,
       },
       assetBundlePatterns: ['**/*'],
       web: {
