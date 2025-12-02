@@ -34,7 +34,7 @@ export default function DrawerLayout() {
       <Drawer.Screen
         name="home"
         options={{
-          title: 'Home',
+          title: '',
         }}
       />
     </Drawer>

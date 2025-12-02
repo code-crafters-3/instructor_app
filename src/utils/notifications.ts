@@ -66,7 +66,6 @@ export const scheduleLocalNotification = async (
 };
 
 export const registerPushNotificationAsync = async (userId: string): Promise<boolean> => {
-  return
   try {
     const { status: existingStatus } = await Notifications.getPermissionsAsync();
     let finalStatus = existingStatus;

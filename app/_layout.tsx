@@ -70,7 +70,11 @@ export default function RootLayout() {
             <ModalManagerProvider>
               <SocketProvider>
                 <SocketListenerWrapper />
-                <PushNotificationManager />
+                {
+                  /*
+                  <PushNotificationManager />
+                  */
+                }
                 <StatusBar style="auto" backgroundColor="transparent" translucent />
                 <SafeAreaView style={styles.container} edges={['top']}>
                    <ContentContainer paddingBottom={contentPaddingBottom}>
